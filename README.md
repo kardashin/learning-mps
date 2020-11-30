@@ -6,8 +6,13 @@ The program generates a given number of random unitary matrices of dimensionalit
 
 The program is represented in the two versions: as the source code *learning-mps.py* and as the Jupyter notebook *learning-mps.ipynb*.
 
+The program requires the following inputs:
+- number of qubits (e.g. *4*)
+- number instances to average over (e.g. *5*)
+- optimization method (e.g. *BFGS*)
+
 The program outputs the four files:
-- fun_values_flat.txt -- the values of the cost function for each iteration;
+- fun_values_flat.txt -- values of the cost function for each iteration;
 - overlaps_flat.txt -- overlaps with the closest eigenstate for each iteration;
 - entanglements_flat.txt -- entanglement entropies of the found eigenstate for each iteration;
 - plot-*.pdf -- the plot of above-mentioned values.
