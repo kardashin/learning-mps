@@ -11,3 +11,5 @@ The program outputs the four files:
 - overlaps_flat.txt -- overlaps with the closest eigenstate for each iteration;
 - entanglements_flat.txt -- entanglement entropies of the found eigenstate for each iteration;
 - plot-*.pdf -- the plot of above-mentioned values.
+
+The Qiskit package is required for execution.
